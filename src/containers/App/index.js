@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { basicAction, loadData } from '../../actions';
+import { basicAction, loadData } from '../../redux/actions';
 
 class App extends React.Component {
   componentDidMount() {

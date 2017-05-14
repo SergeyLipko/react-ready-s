@@ -15,5 +15,8 @@ export const loadData = () => dispatch => {
     .then(res => {
       dispatch(setLoadedData(res.data))
     })
+    .catch(err => {
+      console.error('Error when loading data', err);
+    })
 };
 
